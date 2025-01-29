@@ -1,0 +1,18 @@
+.hero{
+    background: linear-gradient(180deg ,#eebaf2,#e1ffea22 70%);
+}
+.hero-left{
+   animation: fadein 3s;
+   position: relative;
+}
+
+@keyframes fadein {
+    0%{
+        left: -80px;
+        opacity: 0;
+    }
+    100%{
+        left: 0px;
+        opacity: 1;
+    }
+}
